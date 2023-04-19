@@ -24,3 +24,28 @@ html {
   padding-left: 10px;
   width: 400px;
 }
+
+.idnum {
+  height: 30px;
+}
+
+.birth {
+  height: 30px;
+  width: 100px;
+  padding-left: 10px;
+}
+
+.year {
+  height: 30px;
+  padding-left: 10px;
+  width: 75px;
+}
+
+#yellow {
+  background-color: rgb(255, 255, 146, 0.1);
+  border-color: rgb(255, 255, 146, 0.3);
+}
+
+#warning {
+  color: red;
+}

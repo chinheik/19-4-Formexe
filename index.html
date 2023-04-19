@@ -52,8 +52,8 @@
           <span
             >For Hong Kong residents not holding any of the above, please refer
             to
-            <a href="www.youtube.com" style="color: rgb(204, 131, 35)"
-              >Question no. 87 of FAQs</a
+            <a href="www.youtube.com" style="color: rgb(133, 82, 17)"
+              ><b>Question no. 87 of FAQs</b></a
             ></span
           >
         </div>
@@ -85,35 +85,169 @@
           <label for="dateofbirth">Date of birth on Identity document:</label>
         </div>
         <div class="right">
-          <select id="dateofbirth" name="dateofbirth" required class="birth" >
+          <select id="dateofbirth" name="dateofbirth" required class="birth">
             <option value="day">DAY</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
-            </select>
-            <select id="dateofbirth" name="dateofbirth" required class="birth" >
-              <option value="month">Month</option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              </select>
-              <select id="dateofbirth year" name="dateofbirth" required class="year" >
-                <option value="year">Year</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                </select>
-
+          </select>
+          <select id="dateofbirth" name="dateofbirth" required class="birth">
+            <option value="month">Month</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <select
+            id="dateofbirth year"
+            name="dateofbirth"
+            required
+            class="year"
+          >
+            <option value="year">Year</option>
+            <option value="1990">1990</option>
+            <option value="1991">1991</option>
+            <option value="1992">1992</option>
+            <option value="1993">1993</option>
+          </select>
+          <br />
+          <span style="color: rgb(161, 159, 159)"
+            >(If there is no complete date of birth on Identity document, please
+            select "Not Applicable" in the corresponding data field.)</span
+          >
+        </div>
+      </div>
+      <br />
 
       <!--                DATEOFBIRTH               -->
+      <!-- date of you third dose vaccination -->
+      <div class="row">
+        <div class="left">
+          <label for="thedataofyourthirddosevaccination"
+            >The data of your third dose vaccination:</label
+          >
+        </div>
+        <div class="right">
+          <select id="dateofbirth" name="dateofbirth" required class="year">
+            <option value="day">DAY</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <select id="dateofbirth" name="dateofbirth" required class="birth">
+            <option value="month">Month</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <select
+            id="dateofbirth year"
+            name="dateofbirth"
+            required
+            class="year"
+          >
+            <option value="year">Year</option>
+            <option value="1990">1990</option>
+            <option value="1991">1991</option>
+            <option value="1992">1992</option>
+            <option value="1993">1993</option>
+          </select>
+        </div>
+      </div>
+      <br />
+      <!-- date of you third dose vaccination -->
+      <!-- Eligibility Group-->
+      <div class="row">
+        <div class="left">
+          <label for="Eligibility Group">Eligibility Group:</label>
+          <br /><a href="www.youtube.com" style="color: rgb(133, 82, 17)"
+            ><span>Details</span></a
+          >
+        </div>
+        <div class="right">
+          <fieldset>
+            <span
+              ><u><b>If you have not been infected with COVID-19:</b></u></span
+            >
+            <p>
+              <u>
+                Interval between 3<sup>rd</sup> and 4<sup>th</sup> dose is at
+                least 90 days
+              </u>
+            </p>
+            <input id="yes" type="radio" name="answer" value="yes" required />
+            <label for="yes"
+              >Immunocompromised individuals (Immunocompromised medical
+              certificate required as proof)</label
+            ><br />
+            <input id="no" type="radio" name="answer" value="no" required />
+            <label for="no">Persons aged 50 or above</label>
+            <p>
+              <u
+                >Interval between 3<sup>rd</sup> and 4<sup>th</sup> dose is at
+                least 180 days</u
+              >
+            </p>
+            <input
+              id="18to49"
+              type="radio"
+              name="answer"
+              value="18-49"
+              required
+            />
+            <label for="18to49">Persons aged 18 to 49</label>
+          </fieldset>
+          <br />
+          <fieldset id="yellow">
+            <span style="color: brown"
+              ><u><b>If you are COVID-19 recovered persons ^:</b></u></span
+            >
+            <p id="warning">
+              ^For COVID-19 recovered persons, please refer to the "Factsheet on
+              COVID-19 Vaccination for Persons with Prior COVID-19 Infection"<a
+                href="www.youtube.com"
+                style="color: rgb(133, 82, 17); text-decoration: none"
+                >Here</a
+              >
+              for the vaccination arrangement before booking.
+            </p>
+            <p>
+              <u>
+                Interval between 3<sup>rd</sup> and 4<sup>th</sup> dose is at
+                least 90 days
+              </u>
+            </p>
+            <input id="yes" type="radio" name="answer" value="yes" required />
+            <label for="yes"
+              >Recovered persons aged 18 years or above, who belong to
+              Immunocompromised individuals (at least 90 days after
+              recovery)(medical certificate required as proof)</label
+            >
+            <p>
+              <u
+                >Interval between 3<sup>rd</sup> and 4<sup>th</sup> dose is at
+                least 180 days</u
+              >
+            </p>
+            <input id="no" type="radio" name="answer" value="no" required />
+            <label for="no"
+              >Recovered persons aged 18 years or above (at least 180 days after
+              recovery)</label
+            >
+          </fieldset>
+        </div>
+      </div>
+
+      <!-- Eligibility Group-->
+
       <!-- end-->
       <br />
       <input type="submit" value="Sumbit" />
       <!-- end-->
-          </form>
+    </form>
     <!--                FORM                -->
   </body>
 </html>
