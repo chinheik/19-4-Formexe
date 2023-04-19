@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#grey {
+  color: rgb(134, 119, 119);
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+.row {
+  display: flex;
+}
+
+.space {
+  height: 30px;
+  padding-left: 10px;
+  width: 400px;
+}

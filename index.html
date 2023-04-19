@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>19April Formexe</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!--             TOP             -->
+    <div>
+      <h3><b>COVID-19 Vaccination Programme - Booking System</b></h3>
+    </div>
+    <hr color="lightgrey" />
+    <!--             TOP             -->
+    <!--                FORM                -->
+    <form action="index.html" method="GET">
+      <!--                Vaccination               -->
+      <div class="row">
+        <div class="left">
+          <label for="dose">Please select the dose of vaccination:</label>
+        </div>
+        <div class="right">
+          <select id="dose" name="dose" required class="space">
+            <option value="1stdose">1st dose</option>
+            <option value="2nddose">2nd dose</option>
+            <option value="3rddose">3rd dose</option>
+            <option value="4thdose">4th dose</option>
+          </select>
+        </div>
+      </div>
+      <br />
+      <!--                Vaccination               -->
+
+      <div>
+        <span id="grey"><u>Please fill in all fields</u></span>
+      </div>
+      <br />
+
+      <!--                ID TYPE               -->
+
+      <div class="row">
+        <div class="left">
+          <label for="type">Identity document type:</label>
+        </div>
+        <div class="right">
+          <select id="type" name="type" required class="space">
+            <option value="1stdose">Hong Kong Identity Card</option>
+            <option value="2nddose">Hong Kong Passport</option></select
+          ><br />
+          <span
+            >For Hong Kong residents not holding any of the above, please refer
+            to
+            <a href="www.youtube.com" style="color: rgb(204, 131, 35)"
+              >Question no. 87 of FAQs</a
+            ></span
+          >
+        </div>
+      </div>
+      <br />
+      <!--                ID TYPE               -->
+      <!--                ID NUM               -->
+      <div class="row">
+        <div class="left">
+          <label for="number">Identity document number:</label>
+        </div>
+        <div class="right">
+          <input
+            id="number"
+            name="number"
+            type="text"
+            placeholder="e.g:A1234567"
+            pattern="[A-Z]{1}-[0-9]{7}"
+            class="idnum"
+          />
+        </div>
+      </div>
+      <br />
+
+      <!--                ID NUM               -->
+      <!--                DATEOFBIRTH               -->
+      <div class="row">
+        <div class="left">
+          <label for="dateofbirth">Date of birth on Identity document:</label>
+        </div>
+        <div class="right">
+          <select id="dateofbirth" name="dateofbirth" required class="birth" >
+            <option value="day">DAY</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            </select>
+            <select id="dateofbirth" name="dateofbirth" required class="birth" >
+              <option value="month">Month</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              </select>
+              <select id="dateofbirth year" name="dateofbirth" required class="year" >
+                <option value="year">Year</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                </select>
+
+
+      <!--                DATEOFBIRTH               -->
+      <!-- end-->
+      <br />
+      <input type="submit" value="Sumbit" />
+      <!-- end-->
+          </form>
+    <!--                FORM                -->
+  </body>
+</html>
