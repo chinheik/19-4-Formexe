@@ -178,12 +178,12 @@
                 least 90 days
               </u>
             </p>
-            <input id="yes" type="radio" name="answer" value="yes" required />
+            <input id="yes" type="radio" name="covid19" value="yes" required />
             <label for="yes"
               >Immunocompromised individuals (Immunocompromised medical
               certificate required as proof)</label
             ><br />
-            <input id="no" type="radio" name="answer" value="no" required />
+            <input id="no" type="radio" name="covid19" value="no" required />
             <label for="no">Persons aged 50 or above</label>
             <p>
               <u
@@ -194,7 +194,7 @@
             <input
               id="18to49"
               type="radio"
-              name="answer"
+              name="covid19"
               value="18-49"
               required
             />
@@ -220,7 +220,7 @@
                 least 90 days
               </u>
             </p>
-            <input id="yes" type="radio" name="answer" value="yes" required />
+            <input id="yes" type="radio" name="covid19" value="yes" required />
             <label for="yes"
               >Recovered persons aged 18 years or above, who belong to
               Immunocompromised individuals (at least 90 days after
@@ -232,7 +232,7 @@
                 least 180 days</u
               >
             </p>
-            <input id="no" type="radio" name="answer" value="no" required />
+            <input id="no" type="radio" name="covid19" value="no" required />
             <label for="no"
               >Recovered persons aged 18 years or above (at least 180 days after
               recovery)</label
@@ -240,12 +240,77 @@
           </fieldset>
         </div>
       </div>
+      <br />
 
       <!-- Eligibility Group-->
+      <!-- Last Choose-->
+      <div class="row">
+        <div class="left">
+          <label for="type">Choose the vaccine for your fourth dose:</label>
+          <br />
+          <span style="color: red"
+            >Remark: Non-immunocompromised recovered persons aged 17 or below
+            are not recommended to receive the 4th dose of vaccination</span
+          >
+        </div>
+
+        <div class="right">
+          <input
+            id="biontechorfosun"
+            type="radio"
+            name="vaccine"
+            value="biontechorfosun"
+            required
+          />
+          <label for="biontechorfosun"
+            >BioNTech/Fosun [Comirnaty](Aged 6 months or Above Only<span
+              style="color: red"
+              >*</span
+            >)</label
+          >
+          <br />
+          <input
+            id="sinovac"
+            type="radio"
+            name="vaccine"
+            value="sinovac"
+            required
+          />
+          <label for="sinovac"
+            >Sinovac(Aged 6 months or Above Only<span style="color: red">*</span
+            >)
+          </label>
+          <br />
+
+          <input
+            id="biontechorfosun2"
+            type="radio"
+            name="vaccine"
+            value="biontechorfosun2"
+            required
+          />
+          <label for="biontechorfosun2"
+            >BioNTech/Fosun [Comimaty Bivalent<sup>#</sup>](Aged 18 years or
+            above, or Immunocompromised uninfected persons aged 12 or above
+            Only)</label
+          >
+          <br />
+          <span
+            ><sup>#</sup>For information receiving Comirnaty bivalent vaccine,
+            please refer to
+            <span style="color: rgb(133, 82, 17)"
+              >"Supplementary notes on use of Comirnaty Bivalent Vaccine "</span
+            ></span
+          >
+        </div>
+      </div>
+      <!-- Last Choose-->
 
       <!-- end-->
       <br />
-      <input type="submit" value="Sumbit" />
+      <div id="submit">
+        <input type="submit" value="Sumbit" />
+      </div>
       <!-- end-->
     </form>
     <!--                FORM                -->

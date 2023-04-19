@@ -9,10 +9,12 @@ html {
 
 .left {
   width: 30%;
+  padding-left: 15px;
 }
 
 .right {
-  width: 70%;
+  width: 50%;
+  padding-left: 15px;
 }
 
 .row {
@@ -48,4 +50,8 @@ html {
 
 #warning {
   color: red;
+}
+
+#submit {
+  text-align: center;
 }
